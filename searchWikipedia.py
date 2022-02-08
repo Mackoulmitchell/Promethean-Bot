@@ -3,8 +3,7 @@ from bs4 import BeautifulSoup
 
 class searchClass:
     def __init__(self):
-        #Headers here are optional in-case of a 403 error.
-        #self.headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.3'}
+        self.headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.3'}
         self.url = 'https://en.wikipedia.org/wiki/'
     
     
