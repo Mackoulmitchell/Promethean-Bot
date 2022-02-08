@@ -49,4 +49,4 @@ async def hello(ctx):
 def setup(bot):
     bot.add_command(hello)
 
-client.run('OTM1NjQ0MjQ3MDk5NTg0NTMy.YfBomw.fPJFdzyAzBkG2vUHX5RS3ZShouU')
+client.run(os.getenv('TOKEN'))
